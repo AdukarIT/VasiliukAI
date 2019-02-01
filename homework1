@@ -8,8 +8,10 @@ Task 2
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <meta charset="utf-8">
-  <div style="background-color:white">
+  <head>
+    <meta charset="utf-8">
+    <div style="background-color:white">
+  </head>
     <h1>"Head"</h1>
       <p>Paragraph</p>
     <body>
@@ -24,9 +26,12 @@ Task 2
 <!DOCTYPE html>
 <html lang="ru">
 <html>
-  <meta charset="utf-8">
-  <title>Меню сайта</title>
-  <div style="background-color:white">
+  <head>
+   <title>Меню сайта</title>
+   <meta charset="utf-8">
+  </head>
+  <body>
+   <div style="background-color:white">
     <p> Меню сайта FMX.BY </p>
     <ul>
       <li><a href="http://fmx.by/index.php/ru/novosti-ru">Новости/События</a></li>
@@ -40,5 +45,6 @@ Task 2
       <li><a href="http://fmx.by/index.php/ru/poleznoe-chtivo/istoriya/motofristajl">История зарождения </a></li>
       <li><a href="http://fmx.by/index.php/ru/contact">Связь с нами </a></li>
     </ul>   
-  </div>   
+  </div>
+  </body>
 </html>
