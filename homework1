@@ -6,7 +6,9 @@ Task 1
 Task 2
  =====================================I=====================================
 <!DOCTYPE html>
+<html lang="en">
 <html>
+  <meta charset="utf-8">
   <div style="background-color:white">
     <h1>"Head"</h1>
       <p>Paragraph</p>
@@ -20,7 +22,10 @@ Task 2
 
  =====================================II=====================================
 <!DOCTYPE html>
+<html lang="ru">
 <html>
+  <meta charset="utf-8">
+  <title>Меню сайта</title>
   <div style="background-color:white">
     <p> Меню сайта FMX.BY </p>
     <ul>
