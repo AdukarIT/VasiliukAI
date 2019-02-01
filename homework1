@@ -5,11 +5,11 @@ Task 1
 
 Task 2
  =====================================I=====================================
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <div style="background-color:white">
-    <h1> "Head" </h1>
-      <p> paragraph </p>
+    <h1>"Head"</h1>
+      <p>Paragraph</p>
     <body>
       <p><span style="color:red">red text</span></p>
       <p><B>B</B></p>
@@ -19,8 +19,7 @@ Task 2
 </html>
 
  =====================================II=====================================
- 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <div style="background-color:white">
     <p> Меню сайта FMX.BY </p>
@@ -33,8 +32,8 @@ Task 2
           <li><a href="http://fmx.by/index.php/ru/oborudovanie">Оборудование </a></li>
           <li><a href="http://fmx.by/index.php/ru/action">Экшен камеры </a></li>
         </ul></li>
-        <li><a href="http://fmx.by/index.php/ru/poleznoe-chtivo/istoriya/motofristajl">История зарождения </a></li>
-        <li><a href="http://fmx.by/index.php/ru/contact">Связь с нами </a></li>
+      <li><a href="http://fmx.by/index.php/ru/poleznoe-chtivo/istoriya/motofristajl">История зарождения </a></li>
+      <li><a href="http://fmx.by/index.php/ru/contact">Связь с нами </a></li>
     </ul>   
   </div>   
 </html>
