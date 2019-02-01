@@ -1,0 +1,40 @@
+Task 1
+  I - response code to http://adukar.by - 301
+  II - server name to http://vk.com - Internet Information Services (adress - N. Virginia, United States)
+  III - https://www.google.com/offers
+
+Task 2
+ =====================================I=====================================
+ <!DOCTYPE html>
+<html>
+  <div style="background-color:white">
+    <h1> "Head" </h1>
+      <p> paragraph </p>
+    <body>
+      <p><span style="color:red">red text</span></p>
+      <p><B>B</B></p>
+      <p><U>U</U></p>
+    </body>
+  </div>
+</html>
+
+ =====================================II=====================================
+ 
+ <!DOCTYPE html>
+<html>
+  <div style="background-color:white">
+    <p> Меню сайта FMX.BY </p>
+    <ul>
+      <li><a href="http://fmx.by/index.php/ru/novosti-ru">Новости/События</a></li>
+      <li><a href="http://fmx.by/index.php/ru/shop">Магазин</a></li>
+        <li><ul>
+          <li><a href="http://fmx.by/index.php/ru/dirt-all">Кросс </a></li>
+          <li><a href="http://fmx.by/index.php/ru/streetandsport">Спорт </a></li>
+          <li><a href="http://fmx.by/index.php/ru/oborudovanie">Оборудование </a></li>
+          <li><a href="http://fmx.by/index.php/ru/action">Экшен камеры </a></li>
+        </ul></li>
+        <li><a href="http://fmx.by/index.php/ru/poleznoe-chtivo/istoriya/motofristajl">История зарождения </a></li>
+        <li><a href="http://fmx.by/index.php/ru/contact">Связь с нами </a></li>
+    </ul>   
+  </div>   
+</html>
