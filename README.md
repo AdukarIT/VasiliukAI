@@ -6,6 +6,8 @@
 
 2. Moto Shop https://github.com/AdukarIT/VasiliukAI/tree/master/MotoShop (updated)
 
+**Homework 3**
+
 3. Instagram <https://github.com/AdukarIT/VasiliukAI/tree/master/instagram>
 
 
