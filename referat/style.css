@@ -1,0 +1,20 @@
+body {
+	background: #fff;
+	font-color: #000;
+  	font-size: 1.2em;
+  	font-family: Times New Roman, Arial, Verdana, sans-serif;
+  	margin: 0;
+  	
+}
+
+h1 {
+	color: #000;
+  	text-align: center;
+
+}
+
+.theme {
+	color: #000;
+	font-size: 20pt;
+	text-align: center;
+}
