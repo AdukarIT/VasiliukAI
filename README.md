@@ -11,3 +11,7 @@
 3. Instagram <https://github.com/AdukarIT/VasiliukAI/tree/master/instagram>
 
 4. Сайт для изучения языков <https://github.com/AdukarIT/VasiliukAI/tree/master/Learning%20languages>
+
+**Practice**
+
+Реферат: <https://github.com/AdukarIT/VasiliukAI/tree/master/referat>
