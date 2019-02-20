@@ -14,4 +14,4 @@
 
 **Practice**
 
-Реферат: <https://github.com/AdukarIT/VasiliukAI/tree/master/referat>
+Реферат, титульный лист: <https://github.com/AdukarIT/VasiliukAI/tree/master/referat>
