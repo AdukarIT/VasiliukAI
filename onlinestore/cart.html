@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Интернет магазин товаров для дома</title>
+</head>
+<body>
+	<header>
+		<a href="index.html"><img alt="логотип" width="350" height="200" src="houselogo.png"></a>
+		<h1>www.home.by</h1>
+		<p>Заполни форму для заказа товара</p>
+	</header>
+<hr>
+	<nav class="menu">
+		<ul>
+			<li><a href="#">Бытовая&nbsp;техника</a></li>
+				<ul>
+					<li><a href="#">Стиральные&nbsp;машины</a></li>
+					<li><a href="#">Пылесосы</a></li>
+					<li><a href="#">Швейные&#44;&nbsp;Вышивальные&nbsp;машины</a></li>
+					<li><a href="#">Утюги</a></li>
+					<li><a href="#">Электровеники</a></li>
+					<li><a href="#">Сушилка&nbsp;для&nbsp;обуви</a></li>
+				</ul>
+			<li><a href="#">Техника&nbsp;для&nbsp;кухни</a></li>
+				<ul>
+					<li><a href="#">Холодильник</a></li>
+					<li><a href="#">Кухонные&nbsp;плиты</a></li>
+					<li><a href="#">Морозильники</a></li>
+					<li><a href="#">Настольные&nbsp;плиты</a></li>
+					<li><a href="#">Ростеры&#44;&nbsp;мини&#150;печи</a></li>
+					<li><a href="#">Вытяжки</a></li>
+					<li><a href="#">Микроволновые&nbsp;печи</a></li>
+				</ul>
+			<li><a href="#">Компьютерная&nbsp;техника</a></li>
+				<ul>
+					<li><a href="#">Ноутбуки</a></li>
+					<li><a href="#">Планшеты</a></li>
+					<li><a href="#">Компьютеры&#44;&nbsp;моноблоки</a></li>
+					<li><a href="#">Игровые&nbsp;приставки</a></li>
+					<li><a href="#">Серверное&nbsp;оборудование</a></li>
+				</ul>
+			<li><a href="#">Корзина</a></li>
+		</ul>
+	</nav>
+<hr>
+	<form action="basket.html" name="order" method="post">
+		<label>
+			<input type="text" name="nickname" placeholder="Фамилия" required>
+		</label>
+		<label>
+			<input type="text" name="nickname" placeholder="Имя" required>
+		</label>
+		<label>
+			<input type="text" name="nickname" placeholder="Отчество" required>
+		</label>
+		<label>
+			<input type="tel" placeholder="Телефон" name="phone" required>
+		</label>
+		<label>
+			<input type="email" placeholder="E-mail" name="email" required>
+		</label>
+		<label>
+			<textarea maxlength="300" name="comments" placeholder="Введите комментарий к заказу" autocomplete="off" required></textarea>
+		</label>
+		<label>
+			<input type="checkbox" name="согласен" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;доставки&raquo;
+		</label>
+		<button type="submit">Подтвердить заказ</button>
+	</form>
+</body>
+</html>
