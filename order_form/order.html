@@ -6,16 +6,27 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body class="order">
+	<h1>Оформление&nbsp;заказа</h1>
 	<div class="order_adress">
-	   <input type="text" name="name" placeholder="Имя" required>
-	   <input type="text" name="second_name" placeholder="Фамилия" required>
-	   <input type="text" name="city" placeholder="Ваш&nbsp;город" required>
+		<h2>Адрес&nbsp;доставки&#58;</h2>
+		<input type="text" name="name" placeholder="Имя" required>
+		<input type="text" name="second_name" placeholder="Фамилия" required>
+		<input type="text" name="city" placeholder="Ваш&nbsp;город" required>
 	</div>
-	   <div class="order_info">
-	   <input type="tel" name="phone_number" placeholder="Номер телефона" required>
-	   <input type="email" name="email" placeholder="E&#8211;mail" required>
-	   <input type="text" name="time" placeholder="Время&nbsp;доставки" required>
-	   <input type="text" name="payment" placeholder="Способ&nbsp;оплаты" required>
+	<div class="order_info">
+		<h2>Информация&#58;</h2>
+		<input type="tel" name="phone_number" placeholder="Номер телефона" required>
+		<input type="email" name="email" placeholder="E&#8211;mail" required>
+		<input type="text" name="time" placeholder="Время&nbsp;доставки" required>
+		<input type="text" name="payment" placeholder="Способ&nbsp;оплаты" required>
 	</div>
+	<div class="order_comment">
+		<h2>Комментарий&nbsp;к&nbsp;заказу&#58;</h2>
+    	<input type="text" name="comment" placeholder="Комментарий&nbsp;к&nbsp;заказу&#58;" required>
+	</div>
+		<label>
+			<input type="checkbox" name="согласен" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;заказа&raquo;
+		</label>
+	<button class="confirm">Подтвердить&nbsp;заказ</button>
 </body>
 </html>
