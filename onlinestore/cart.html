@@ -6,71 +6,96 @@
 	<title>Интернет магазин товаров для дома</title>
 </head>
 <body>
-	<header>
-		<a href="index.html"><img alt="логотип" width="350" height="200" src="houselogo.png"></a>
-		<h1>www.home.by</h1>
-		<p>Заполни форму для заказа товара</p>
-	</header>
-<hr>
-	<nav class="menu">
-		<ul>
-			<li><a href="#">Бытовая&nbsp;техника</a>
-				<ul>
-					<li><a href="#">Стиральные&nbsp;машины</a></li>
-					<li><a href="#">Пылесосы</a></li>
-					<li><a href="#">Швейные&#44;&nbsp;Вышивальные&nbsp;машины</a></li>
-					<li><a href="#">Утюги</a></li>
-					<li><a href="#">Электровеники</a></li>
-					<li><a href="#">Сушилка&nbsp;для&nbsp;обуви</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Техника&nbsp;для&nbsp;кухни</a>
-				<ul>
-					<li><a href="#">Холодильник</a></li>
-					<li><a href="#">Кухонные&nbsp;плиты</a></li>
-					<li><a href="#">Морозильники</a></li>
-					<li><a href="#">Настольные&nbsp;плиты</a></li>
-					<li><a href="#">Ростеры&#44;&nbsp;мини&#8211;печи</a></li>
-					<li><a href="#">Вытяжки</a></li>
-					<li><a href="#">Микроволновые&nbsp;печи</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Компьютерная&nbsp;техника</a>
-				<ul>
-					<li><a href="#">Ноутбуки</a></li>
-					<li><a href="#">Планшеты</a></li>
-					<li><a href="#">Компьютеры&#44;&nbsp;моноблоки</a></li>
-					<li><a href="#">Игровые&nbsp;приставки</a></li>
-					<li><a href="#">Серверное&nbsp;оборудование</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Корзина</a></li>
-		</ul>
-	</nav>
-<hr>
-	<form action="basket.html" name="order" method="post">
-		<label>
-			<input type="text" name="nickname" placeholder="Фамилия" required>
-		</label>
-		<label>
-			<input type="text" name="nickname" placeholder="Имя" required>
-		</label>
-		<label>
-			<input type="text" name="nickname" placeholder="Отчество" required>
-		</label>
-		<label>
-			<input type="tel" placeholder="Телефон" name="phone" required>
-		</label>
-		<label>
-			<input type="email" placeholder="E-mail" name="email" required>
-		</label>
-		<label>
-			<textarea maxlength="300" name="comments" placeholder="Введите комментарий к заказу" autocomplete="off" required></textarea>
-		</label>
-		<label>
-			<input type="checkbox" name="согласен" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;доставки&raquo;
-		</label>
-		<button type="submit">Подтвердить заказ</button>
-	</form>
+	<main>
+		<header>
+			<a href="index.html"><img class="companylogo" alt="логотип" src="houselogo.png"></a>
+			<h1>www.4Home.by</h1>
+			<p class="header-text">Форма заказа товара</p>
+		</header>
+	<hr>
+		<nav>
+			<ul id="menu">
+				<li class="main-menu"><a href="#">Бытовая&nbsp;техника</a>
+					<ul class="submenu">
+						<li><a href="#">Стиральные&nbsp;машины</a></li>
+						<li><a href="#">Пылесосы</a></li>
+						<li><a href="#">Швейные&#44;&nbsp;Вышивальные&nbsp;машины</a></li>
+						<li><a href="#">Утюги</a></li>
+						<li><a href="#">Электровеники</a></li>
+						<li><a href="#">Сушилка&nbsp;для&nbsp;обуви</a></li>
+					</ul>
+				</li>
+				<li class="main-menu"><a href="#">Техника&nbsp;для&nbsp;кухни</a>
+					<ul class="submenu">
+						<li><a href="#">Холодильник</a></li>
+						<li><a href="#">Кухонные&nbsp;плиты</a></li>
+						<li><a href="#">Морозильники</a></li>
+						<li><a href="#">Настольные&nbsp;плиты</a></li>
+						<li><a href="#">Ростеры&#44;&nbsp;мини&#8211;печи</a></li>
+						<li><a href="#">Вытяжки</a></li>
+						<li><a href="#">Микроволновые&nbsp;печи</a></li>
+					</ul>
+				</li>
+				<li class="main-menu"><a href="#">Компьютерная&nbsp;техника</a>
+					<ul class="submenu">
+						<li><a href="#">Ноутбуки</a></li>
+						<li><a href="#">Планшеты</a></li>
+						<li><a href="#">Компьютеры&#44;&nbsp;моноблоки</a></li>
+						<li><a href="#">Игровые&nbsp;приставки</a></li>
+						<li><a href="#">Серверное&nbsp;оборудование</a></li>
+					</ul>
+				</li>
+				<button class="basket-button"><a href="#">Корзина</a></button>
+			</ul>
+		</nav>
+	<hr>
+	<div class="order-form">
+		<form action="basket.html" name="order" method="post">
+			<label>
+				<input type="text" name="surname" placeholder="Фамилия" required>
+			</label>
+			<label>
+				<input type="text" name="name" placeholder="Имя" required>
+			</label>
+			<label>
+				<input type="text" name="secondname" placeholder="Отчество" required>
+			</label>
+			<label>
+				<input type="tel" placeholder="Телефон" name="phone" required>
+			</label>
+			<label>
+				<input type="email" placeholder="E-mail" name="email" required>
+			</label>
+			<label>
+				<input list="delivery" name="delivery" placeholder="Способ доставки" required>
+					<datalist id="delivery">
+						<option value="Самовывоз">со склада по адресу</option>
+						<option value="Курьером">по Минску</option>
+					</datalist>
+			</label>
+			<label>
+				<textarea maxlength="300" name="comments" placeholder="Введите&nbsp;комментарий&nbsp;к&nbsp;заказу" autocomplete="off" required></textarea>
+			</label>
+			<label>
+				<input type="checkbox" name="agree" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;
+			</label>
+			<button type="submit">Подтвердить заказ</button>
+		</form>
+	</div>
+	<hr>
+		<footer>
+			<div id="store-address">
+				<h3>Адрес магазина</h3>
+				<address>
+					<p><span> Беларуcь, Минск, Пр-т Дзержинского 69 к2, офис 115</span></p>
+					<p><span style="font-size:16px">Телефон:</span><span style="font-size:16px"> Velcom:</span><span style="font-size:18px"> +375 (29) 604 77 04</span></p>
+					<p><span style="font-size:16px">Skype:</span><span style="font-size:16px">Anton.Vasilyuk</span></p>
+					<p><span style="font-size:16px">E-mail:</span><span style="font-size:18px"> main@fmx.by</span></p>
+					<p><span style="font-size:16px">Рабочие часы:</span><span style="font-size:18px"> Понедельник-Пятница (09.00 - 18.00)</span></p>
+				</address>
+			</div>
+			<p><a href="#top">&uArr;&uArr;&uArr;</a></p>
+		</footer>
+	</main>
 </body>
 </html>
