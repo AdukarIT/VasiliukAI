@@ -1,0 +1,124 @@
+header, footer {
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	background: #fff;
+	width: 100%;
+	height: 200px;
+	
+}
+
+.companylogo {
+	float: left;
+	position: absolute;
+	width: 350px;
+	height: 200px;
+	top: 0; 
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	width: 350px;
+	font-size: 40px;
+    font-family: "Times New Roman", Arial, serif;
+    text-decoration: underline;
+    color: #000; 
+	position: absolute;
+	margin: 10px;
+	text-align: center;
+	top: 40px;
+	left: 800px;
+	float: left;
+	
+}
+
+.header-text {
+	font-size: 20px;
+    font-family: "Times New Roman", Arial, serif;
+    color: #000; 
+	width: 350px;
+	height: 20px;
+	position: absolute;
+	margin: 10px;
+	text-align: center;
+	top: 120px;
+	left: 800px;
+	
+}
+
+.main-menu {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 10em;
+	height: 2em;
+	float: left;
+	margin: auto;
+	padding: auto;
+	text-decoration: none; 
+	text-align: left;
+	list-style: none;
+
+}
+
+.basket-button {
+	position: relative;
+	width: 6em;
+	height: 2em;
+	margin: 0;
+	left: 50em;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background-color: #4682B4;
+
+
+}
+
+.main-menu ul{
+	display: none;
+}
+
+.submenu {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 10em;
+	height: 2em;
+	float: left;
+	margin: auto;
+	padding: auto;
+	text-decoration: none; 
+	text-align: left;
+	list-style: none;
+}
+.submenu li {
+	list-style-type: none;
+}
+	
+.main-menu:hover ul{
+	display: block;
+}
+
+hr {
+	clear: both
+}
+
+.order-form {
+	clear: both
+}
+
+a {
+	font-size: 11pt;
+	font-weight: bold;
+    font-family: "Times New Roman", Arial, serif;
+    text-decoration: none;
+    
+    color: #000; 
+}
+
+footer {
+	height: 300px;
+	text-align: center;
+}
