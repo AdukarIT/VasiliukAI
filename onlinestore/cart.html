@@ -9,7 +9,7 @@
 	<header>
 		<a href="index.html"><img class="companylogo" alt="логотип" src="img/houselogo.png"></a>
 		<h1>www.4Home.by</h1>
-		<p class="header-text">Форма заказа товара</p>
+		<p class="header-text">Удобный каталог техники для вашего дома</p>
 	</header>
 <hr>
 	<nav>
@@ -44,42 +44,43 @@
 					<li><a href="#">Серверное&nbsp;оборудование</a></li>
 				</ul>
 			</li>
-			<button class="basket-button"><a href="#">Корзина</a></button>
+			<button class="basket-button"><a href="basket.html">Корзина</a></button>
 		</ul>
 	</nav>
 <hr>
 	<main>
+		<h2 class="order-form-text">Заполни тут</h2>
 		<div class="order-form">
 			<form action="basket.html" name="order" method="post">
-				<label>
+				<label class="surname">
 					<input type="text" name="surname" placeholder="Фамилия" required>
 				</label>
-				<label>
+				<label class="name">
 					<input type="text" name="name" placeholder="Имя" required>
 				</label>
-				<label>
+				<label class="secondname">
 					<input type="text" name="secondname" placeholder="Отчество" required>
 				</label>
-				<label>
+				<label class="phone-number">
 					<input type="tel" placeholder="Телефон" name="phone" required>
 				</label>
-				<label>
+				<label class="email">
 					<input type="email" placeholder="E-mail" name="email" required>
 				</label>
-				<label>
+				<label class="delivery-type">
 					<input list="delivery" name="delivery" placeholder="Способ доставки" required>
 						<datalist id="delivery">
 							<option value="Самовывоз">со склада по адресу</option>
 							<option value="Курьером">по Минску</option>
 						</datalist>
 				</label>
-				<label>
+				<label class="comments">
 					<textarea maxlength="300" name="comments" placeholder="Введите&nbsp;комментарий&nbsp;к&nbsp;заказу" autocomplete="off" required></textarea>
 				</label>
-				<label>
-					<input type="checkbox" name="agree" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;
+				<label class="checkbox">
+					<input type="checkbox" name="agree" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;&raquo;
 				</label>
-				<button type="submit">Подтвердить заказ</button>
+				<button class="confirm-button" type="submit">Подтвердить заказ</button>
 			</form>
 		</div>
 	</main>
