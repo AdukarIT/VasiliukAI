@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header>
-		<a href="index.html"><img class="company__logo" alt="логотип" src="img/houselogo.png"></a>
+		<a href="index.html"><img class="company__logo" alt="логотип" src="img/companylogo.jpg"></a>
 		<h1>www.4Home.by</h1>
 		<p class="header__text">Удобный каталог техники для вашего дома</p>
 	</header>
@@ -44,10 +44,12 @@
 					<li><a href="#">Серверное&nbsp;оборудование</a></li>
 				</ul>
 			</li>
-			<button class="basket__button"><a href="basket.html">Корзина</a></button>
+			<li class="main__menu"><a href="#">Корзина</a></li>
 		</ul>
+		<form action="basket.html">
+			<button class="basket__button">Мои&nbsp;покупки</button>
+		</form>
 	</nav>
-<hr>
 	<main>
 		<div class="order__form">
 			<h2 class="order__form__title">Заполни тут</h2>
@@ -73,21 +75,19 @@
 					<input class="form__input" type="email" name="email" placeholder=" " required>
 				</div>
 				<div class="form__lines">
-					<label class="delivery__type">
-						<input list="delivery" name="delivery" placeholder="Способ доставки" required>
-							<datalist id="delivery">
-								<option value="Самовывоз">со склада по адресу</option>
-								<option value="Курьером">по Минску</option>
-							</datalist>
-					</label>
+					<label class="delivery__type__text">Выберите способ доставки&#58;</label>
+							<select id="delivery">
+								<option value="pickup">Самовывоз со склада по адресу</option>
+								<option value="delivery">Курьером в пределах города Минска</option>
+							</select>
 				</div>
 				<div class="form__lines">
-					<label class="comments">
-						<textarea maxlength="300" name="comments" placeholder="Введите&nbsp;комментарий&nbsp;к&nbsp;заказу" autocomplete="off" required></textarea>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="agree" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;&raquo;
-					</label>
+					<label class="comment__box__text">Введите&nbsp;комментарий&nbsp;к&nbsp;заказу&#58;</label>
+					<textarea name="comments" placeholder=" " autocomplete="off" required></textarea>
+				</div>
+				<div>
+					<input class="checkbox__terms__input" type="checkbox" id="terms" name="terms" required>
+					<label class="checkbox__terms__label" for="terms">&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;принимаю&nbsp;<a class="terms__link" href="#">условия</a>&nbsp;магазина&raquo;</label>
 				</div>
 				<button class="confirm__button" type="submit">Подтвердить заказ</button>
 			</form>
