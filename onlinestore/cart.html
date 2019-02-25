@@ -7,14 +7,14 @@
 </head>
 <body>
 	<header>
-		<a href="index.html"><img class="companylogo" alt="логотип" src="img/houselogo.png"></a>
+		<a href="index.html"><img class="company__logo" alt="логотип" src="img/houselogo.png"></a>
 		<h1>www.4Home.by</h1>
-		<p class="header-text">Удобный каталог техники для вашего дома</p>
+		<p class="header__text">Удобный каталог техники для вашего дома</p>
 	</header>
 <hr>
 	<nav>
 		<ul id="menu">
-			<li class="main-menu"><a href="#">Бытовая&nbsp;техника</a>
+			<li class="main__menu"><a href="#">Бытовая&nbsp;техника</a>
 				<ul class="submenu">
 					<li><a href="#">Стиральные&nbsp;машины</a></li>
 					<li><a href="#">Пылесосы</a></li>
@@ -24,7 +24,7 @@
 					<li><a href="#">Сушилка&nbsp;для&nbsp;обуви</a></li>
 				</ul>
 			</li>
-			<li class="main-menu"><a href="#">Техника&nbsp;для&nbsp;кухни</a>
+			<li class="main__menu"><a href="#">Техника&nbsp;для&nbsp;кухни</a>
 				<ul class="submenu">
 					<li><a href="#">Холодильник</a></li>
 					<li><a href="#">Кухонные&nbsp;плиты</a></li>
@@ -35,7 +35,7 @@
 					<li><a href="#">Микроволновые&nbsp;печи</a></li>
 				</ul>
 			</li>
-			<li class="main-menu"><a href="#">Компьютерная&nbsp;техника</a>
+			<li class="main__menu"><a href="#">Компьютерная&nbsp;техника</a>
 				<ul class="submenu">
 					<li><a href="#">Ноутбуки</a></li>
 					<li><a href="#">Планшеты</a></li>
@@ -44,43 +44,52 @@
 					<li><a href="#">Серверное&nbsp;оборудование</a></li>
 				</ul>
 			</li>
-			<button class="basket-button"><a href="basket.html">Корзина</a></button>
+			<button class="basket__button"><a href="basket.html">Корзина</a></button>
 		</ul>
 	</nav>
 <hr>
 	<main>
-		<h2 class="order-form-text">Заполни тут</h2>
-		<div class="order-form">
+		<div class="order__form">
+			<h2 class="order__form__title">Заполни тут</h2>
 			<form action="basket.html" name="order" method="post">
-				<label class="surname">
-					<input type="text" name="surname" placeholder="Фамилия" required>
-				</label>
-				<label class="name">
-					<input type="text" name="name" placeholder="Имя" required>
-				</label>
-				<label class="secondname">
-					<input type="text" name="secondname" placeholder="Отчество" required>
-				</label>
-				<label class="phone-number">
-					<input type="tel" placeholder="Телефон" name="phone" required>
-				</label>
-				<label class="email">
-					<input type="email" placeholder="E-mail" name="email" required>
-				</label>
-				<label class="delivery-type">
-					<input list="delivery" name="delivery" placeholder="Способ доставки" required>
-						<datalist id="delivery">
-							<option value="Самовывоз">со склада по адресу</option>
-							<option value="Курьером">по Минску</option>
-						</datalist>
-				</label>
-				<label class="comments">
-					<textarea maxlength="300" name="comments" placeholder="Введите&nbsp;комментарий&nbsp;к&nbsp;заказу" autocomplete="off" required></textarea>
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" name="agree" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;&raquo;
-				</label>
-				<button class="confirm-button" type="submit">Подтвердить заказ</button>
+				<div class="form__lines">
+					<label class="form__label">Фамилия</label>
+					<input class="form__input" type="text" name="surname" placeholder=" " required>
+				</div>
+				<div class="form__lines">
+					<label class="form__label">Имя</label>
+					<input class="form__input" type="text" name="name" placeholder=" " required>
+				</div>
+				<div class="form__lines">
+					<label class="form__label">Отчество</label>
+					<input class="form__input" type="text" name="secondname" placeholder=" " required>
+				</div>
+				<div class="form__lines">
+					<label class="form__label">Телефон</label>
+					<input class="form__input" type="tel" name="phone" placeholder=" " required>
+				</div>
+				<div class="form__lines">
+					<label class="form__label">E-mail</label>
+					<input class="form__input" type="email" name="email" placeholder=" " required>
+				</div>
+				<div class="form__lines">
+					<label class="delivery__type">
+						<input list="delivery" name="delivery" placeholder="Способ доставки" required>
+							<datalist id="delivery">
+								<option value="Самовывоз">со склада по адресу</option>
+								<option value="Курьером">по Минску</option>
+							</datalist>
+					</label>
+				</div>
+				<div class="form__lines">
+					<label class="comments">
+						<textarea maxlength="300" name="comments" placeholder="Введите&nbsp;комментарий&nbsp;к&nbsp;заказу" autocomplete="off" required></textarea>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="agree" required>&laquo;Я&nbsp;прочитал&nbsp;и&nbsp;согласен&nbsp;с&nbsp;условиями&nbsp;&raquo;
+					</label>
+				</div>
+				<button class="confirm__button" type="submit">Подтвердить заказ</button>
 			</form>
 		</div>
 	</main>
@@ -90,10 +99,10 @@
 			<h3>Адрес магазина</h3>
 			<address>
 				<p><span> Беларуcь, Минск, Пр-т Дзержинского 69 к2, офис 115</span></p>
-				<p><span style="font-size:16px">Телефон:</span><span style="font-size:16px"> Velcom:</span><span style="font-size:18px"> +375 (29) 604 77 04</span></p>
-				<p><span style="font-size:16px">Skype:</span><span style="font-size:16px">Anton.Vasilyuk</span></p>
-				<p><span style="font-size:16px">E-mail:</span><span style="font-size:18px"> main@fmx.by</span></p>
-				<p><span style="font-size:16px">Рабочие часы:</span><span style="font-size:18px"> Понедельник-Пятница (09.00 - 18.00)</span></p>
+				<p><span class="1">Телефон:</span><span class="velcom"> Velcom:</span><span> +375 (29) 604 77 04</span></p>
+				<p><span class="1">Skype:</span><span>Anton.Vasilyuk</span></p>
+				<p><span class="1">E-mail:</span><span> main@fmx.by</span></p>
+				<p><span class="1">Рабочие часы:</span><span> Понедельник-Пятница (09.00 - 18.00)</span></p>
 			</address>
 		</div>
 		<p><a href="#top">&uArr;&uArr;&uArr;</a></p>
