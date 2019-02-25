@@ -19,7 +19,7 @@ footer {
 	text-align: center;
 }
 
-.companylogo {
+.company__logo {
 	float: left;
 	position: absolute;
 	width: 350px;
@@ -45,7 +45,7 @@ h1 {
 	
 }
 
-.header-text {
+.header__text {
 	font-size: 20px;
 	font-family: "Times New Roman", Arial, serif;
 	color: #000; 
@@ -63,7 +63,7 @@ nav {
 	height: 2em;
 }
 
-.main-menu {
+.main__menu {
 	display: block;
 	box-sizing: border-box;
 	position: relative;
@@ -79,7 +79,7 @@ nav {
 
 }
 
-.basket-button {
+.basket__button {
 	position: relative;
 	width: 6em;
 	height: 2em;
@@ -91,11 +91,11 @@ nav {
 
 }
 
-.main-menu ul{
+.main__menu ul{
 	display: none;
 }
 
-.main-menu:hover ul{
+.main__menu:hover ul{
 	display: block;
 }
 
@@ -119,7 +119,7 @@ nav {
 	background-color: #666666;
 }
 
-.main-menu:hover {
+.main__menu:hover {
 	color: #F0F8FF;
 	background-color: #b2b2b2;
 
@@ -142,25 +142,94 @@ hr {
 	clear: both
 }
 
-.order-form {
+.order__form {
 	clear: both;
 }
 
 main {
+	display: flex;
 	width: 100%;
-	height: 501px;
+	height: 700px;
 	margin: 0;
-	background-color: #b2b2b2;
-	text-align: center;
+	background-color: #fff;
+	
 }
 
-div.order-form {
+h2 {
+	text-decoration: underline;
+	text-align: center;
+	margin: 20px 0 30px 0;
+}
+
+div.order__form {
 	display: block;
 	width: 50%;
-	height: 400px;
+	height: 500px;
 	position: relative;
-	margin: 2em 25% 0 25%;
+	margin: 5em 25% 0 25%;
+	padding: 32px;
 	border: 1px solid #000;
+	border-radius: 20px;
+	box-shadow: 0 4px 30px #000;
+
+
+}
+.form__input, .confirm__button {
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+	
+}
+
+.form__lines {
+	position: relative;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+
+.form__label {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	color: #666666;
+	transition: 0.5s;
+}
+
+.form__input {
+	width: 100%;
+	padding: 0 0 10px 0;
+	border: none;
+	border-bottom: 1px solid #666666;
+	background-color: transparent;
+	outline: none;
+	transition: 0.5s;
+}
+.form__input:focus {
+	border-bottom: 2px solid #000;
 
 }
 
+.confirm__button {
+	position: relative;
+	width: 10em;
+	height: 3em;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 20px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	background-color: #fff;
+	color: #000;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.confirm__button:focus, .confirm__button:hover {
+	background-color: #4682B4;
+}
+
+.form__input:focus ~.form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+	top: -18px;
+	font-size: 12px;
+	color: #cccccc;
+}
