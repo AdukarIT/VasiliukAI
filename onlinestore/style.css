@@ -2,16 +2,16 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Times New Roman", Arial, serif;
-	background-color: #008080;
+	background-color: #fff;
 }
-header, footer {
-	display: inline-block;
+section, header, footer {
+	display: block;
 	box-sizing: border-box;
 	position: relative;
 	background-color: #fff;
 	width: 100%;
 	height: 200px;
-	
+
 }
 
 footer {
@@ -59,10 +59,14 @@ h1 {
 	
 }
 
-
 nav {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 10px;
 	background-color: #fff;
 	height: 2em;
+	top: 0;
+	z-index: 1;
 }
 
 .main__menu {
@@ -81,21 +85,22 @@ nav {
 
 }
 
-.basket__button {
-	position: relative;
+/*.basket__button {
+	display: inline-block;
+	position: absolute;
 	width: 8em;
 	height: 2em;
 	margin: 0;
-	left: 50em;
+	right: 1px ;
 	border: 1px solid #20B2AA;
 	border-radius: 10px;
 	background-color: #008080;
 	outline: none;
-}
+}*/
 
-.basket__button:hover {
+/*.basket__button:hover {
 	background-color: #20B2AA;
-}
+}*/
 
 .main__menu ul{
 	display: none;
@@ -147,6 +152,10 @@ a.terms__link {
 	font-size: 14pt;
 	text-decoration: underline;
 }
+.clearfix {
+    clear: both;
+}
+
 hr {
 	clear: both
 }
@@ -155,11 +164,12 @@ hr {
 	clear: both;
 }
 
+
 main {
 	display: flex;
+	position: relative;
 	width: 100%;
-	height: 900px;
-	margin: 0;
+	height: 1000px;
 	background-color: #fff;
 	
 }
@@ -175,7 +185,7 @@ div.order__form {
 	width: 50%;
 	height: 700px;
 	position: relative;
-	margin: 5em 25% 0 25%;
+	margin: 10em 25% 0 25%;
 	padding: 32px;
 	border: 1px solid #000;
 	border-radius: 20px;
@@ -218,7 +228,7 @@ div.order__form {
 }
 
 textarea {
-	position: relative;
+	position: relative;*/
 	display: block;
 	width: 100%;
 	max-height: 12em;
