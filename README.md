@@ -20,6 +20,6 @@ Modal Header: <https://github.com/AdukarIT/VasiliukAI/tree/master/ModalHeader>
 
 **Homework 4**
 
-Магазин бытовой техники, форма заказа <https://github.com/AdukarIT/VasiliukAI/tree/master/onlinestore> не добил еще.
+Магазин бытовой техники, форма заказа <https://github.com/AdukarIT/VasiliukAI/tree/master/onlinestore> 
 
 
