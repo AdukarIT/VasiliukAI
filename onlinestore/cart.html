@@ -7,12 +7,11 @@
 </head>
 <body>
 	<header>
-		<a href="index.html"><img class="company__logo" alt="логотип" src="img/companylogo.jpg"></a>
-		<h1>www.4Home.by</h1>
-		<p class="header__text">Удобный каталог техники для вашего дома</p>
-	</header>
-<hr>
-	<nav>
+		<section><a href="index.html"><img class="company__logo" alt="логотип" src="img/companylogo.jpg"></a>
+			<h1>www.4Home.by</h1>
+			<p class="header__text">Удобный каталог техники для вашего дома</p>
+		</section>
+		<nav>
 		<ul id="menu">
 			<li class="main__menu"><a href="#">Бытовая&nbsp;техника</a>
 				<ul class="submenu">
@@ -46,10 +45,12 @@
 			</li>
 			<li class="main__menu"><a href="#">Корзина</a></li>
 		</ul>
-		<form action="basket.html">
+		<!-- <form action="basket.html">
 			<button class="basket__button">Мои&nbsp;покупки</button>
-		</form>
+		</form> -->
 	</nav>
+	</header>
+	<div class="clearfix"></div>
 	<main>
 		<div class="order__form">
 			<h2 class="order__form__title">Заполни тут</h2>
@@ -76,11 +77,13 @@
 				</div>
 				<div class="form__lines">
 					<label class="delivery__type__text">Выберите способ доставки&#58;</label>
-							<select id="delivery">
-								<option value="pickup">Самовывоз со склада по адресу</option>
-								<option value="delivery">Курьером в пределах города Минска</option>
-							</select>
+					<!-- <select id="delivery">
+						<option value="pickup">Самовывоз со склада по адресу</option>
+						<option value="delivery">Курьером в пределах города Минска</option>
+					</select> -->
+					
 				</div>
+
 				<div class="form__lines">
 					<label class="comment__box__text">Введите&nbsp;комментарий&nbsp;к&nbsp;заказу&#58;</label>
 					<textarea name="comments" placeholder=" " autocomplete="off" required></textarea>
