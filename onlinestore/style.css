@@ -153,10 +153,6 @@ a.terms__link {
 	text-decoration: underline;
 }
 
-/*.clearfix {
-    clear: both;
-}*/
-
 hr {
 	clear: both
 }
@@ -379,7 +375,7 @@ textarea {
 	visibility: hidden;
 }
 
-.checkbox__terms__input:checked + .confirm__button {
+.checkbox__terms__input:checked ~ .confirm__button {
 	visibility: visible;
 }
 
