@@ -1,5 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background-image: url(world.jpg);
+	background-image: url(img/world.jpg);
 	font-family: "Times New Roman";
 	font-size: 15px;
 	margin: 0;
@@ -13,6 +18,7 @@ header {
 	margin: 0;
 	background-color: #000;
 }
+
 .header__logo {
 	display: inline-block;
 	box-sizing: border-box;
@@ -211,6 +217,7 @@ iframe {
 	outline: none;
 	transition: 0.3s;
 }
+
 .form__input:focus {
 	border-bottom: 2px solid  #fff;
 
