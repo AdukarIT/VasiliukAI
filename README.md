@@ -22,4 +22,8 @@ Modal Header: <https://github.com/AdukarIT/VasiliukAI/tree/master/ModalHeader>
 
 Магазин бытовой техники, форма заказа <https://github.com/AdukarIT/VasiliukAI/tree/master/onlinestore> 
 
+Форма обратной связи 1 <https://github.com/AdukarIT/VasiliukAI/tree/master/order_form> 
+
+Форма обратной связи 2 <https://github.com/AdukarIT/VasiliukAI/tree/master/contact_form>
+
 
