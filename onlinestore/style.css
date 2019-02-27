@@ -309,7 +309,7 @@ textarea {
 	position: relative;
 	padding: 0 10px 0 60px;
 	cursor: pointer;
-	transition: color 0.1s linear;
+	transition: color 0.3s linear;
 
 }
 
@@ -326,7 +326,7 @@ textarea {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	transition: background-color 0.1s linear;
+	transition: background-color 0.3s linear;
 }
 
 .checkbox__terms__label:after {
@@ -340,7 +340,7 @@ textarea {
 	top: 1px;
 	left: 1px;
 	z-index: 1;
-	transition: transform 0.1s linear;
+	transition: transform 0.3s linear;
 	
 
 }
@@ -398,7 +398,7 @@ textarea {
 	color: #000;
 	outline: none;
 	cursor: pointer;
-	transition: 0.1s;
+	transition: 0.3s;
 }
 
 .confirm__button:focus, .confirm__button:hover {
