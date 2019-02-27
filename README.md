@@ -14,16 +14,16 @@
 
 **Practice**
 
-Реферат, титульный лист: <https://github.com/AdukarIT/VasiliukAI/tree/master/referat>
+5. Реферат, титульный лист: <https://github.com/AdukarIT/VasiliukAI/tree/master/referat>
 
-Modal Header: <https://github.com/AdukarIT/VasiliukAI/tree/master/ModalHeader>
+6. Modal Header: <https://github.com/AdukarIT/VasiliukAI/tree/master/ModalHeader>
 
 **Homework 4**
 
-Магазин бытовой техники, форма заказа <https://github.com/AdukarIT/VasiliukAI/tree/master/onlinestore> 
+7. Магазин бытовой техники, форма заказа <https://github.com/AdukarIT/VasiliukAI/tree/master/onlinestore> 
 
-Форма обратной связи 1 <https://github.com/AdukarIT/VasiliukAI/tree/master/order_form> 
+8. Форма обратной связи 1 <https://github.com/AdukarIT/VasiliukAI/tree/master/order_form> 
 
-Форма обратной связи 2 <https://github.com/AdukarIT/VasiliukAI/tree/master/contact_form>
+9. Форма обратной связи 2 <https://github.com/AdukarIT/VasiliukAI/tree/master/contact_form>
 
 
