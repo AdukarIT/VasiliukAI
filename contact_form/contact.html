@@ -22,23 +22,25 @@
 		<div class="contact__block">
 			<div class="contact__wrap">
 				<h2>Drop Us A Message</h2>
-	             <label class="contact__label">Full Name<span class="req">*</span>
+	             <label for="name" class="contact__label"><span class="label__text">Full Name</span><span class="req">*</span>
 	             </label>
-	              <input class="contact__input" type="text" required autocomplete="on" />
+	              <input id="name" class="contact__input" type="text" required autocomplete="on" />
 	            </div>
 	            <div class="contact__wrap">
-	              <label class="contact__label">E-mail<span class="req">*</span>
+	              <label for="email" class="contact__label"><span class="label__text">E-mail</span><span class="req">*</span>
 	              </label>
-	              <input class="contact__input" type="email" required autocomplete="on" />
+	              <input id="email" class="contact__input" type="email" required autocomplete="on" />
 	            </div>
 	            <div class="massage__form">
-					<label class="message__box__label">Your Massage</label>
-					<textarea name="Message" placeholder=" " autocomplete="off" required></textarea>
+					<label for="message" class="message__box__label"><span class="label__text">Your Massage</span></label>
+					<textarea id="message" name="Message" placeholder=" " autocomplete="off" required></textarea>
 				</div>
 				<div class="checkbox">
-					<input class="checkbox__terms__input" type="checkbox" id="terms" name="terms" required>
-					<label class="checkbox__terms__label" for="terms">I Agree To The<a class="terms__link" href="#">&nbsp;Terms</a></label>
-					<button class="confirm__button" type="submit">Send</button>
+					<form>
+						<input class="checkbox__terms__input" type="checkbox" id="terms" name="terms" required>
+						<label class="checkbox__terms__label" for="terms">I Agree To The<a class="terms__link" href="#">&nbsp;Terms</a></label>
+						<button class="confirm__button" type="submit">Send</button>
+					</form>
 				</div>
 				<p class="text__under__button">Click on checkbox for message</p>
 			</div>
