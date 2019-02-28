@@ -142,7 +142,7 @@ nav {
 a {
 	font-size: 12pt;
 	font-weight: bold;
-	font-family: "Times New Roman", Arial, serif;
+	font-family: 'Times New Roman', Arial, serif;
 	text-decoration: none;
 	color: #000; 
 }
@@ -207,10 +207,12 @@ div.order__form {
 
 .form__label {
 	position: absolute;
-	font-size: 20px;
-	bottom: 5px;
+	font-size: 18px;
+	bottom: 10px;
 	color: #666666;
 	transition: 0.3s;
+	background-color: transparent;
+	z-index: 1;
 }
 
 .form__input {
@@ -220,19 +222,35 @@ div.order__form {
 	padding: 0;
 	border: none;
 	border-bottom: 1px solid #666666;
-	background-color: transparent;
+	background-color: #fff;
 	outline: none;
 	transition: 0.3s;
+
 }
+
 .form__input:focus {
-	border-bottom: 2px solid  #008080;
+	border-bottom: 1px solid  #008080;
 
 }
 
 .form__input:focus + .form__label {
-	font-size: 12px;
-	bottom: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	bottom: 30px;
+	color: #008080;
 
+}
+
+.form__input:valid + .form__label {
+	font-size: 13px;
+	font-weight: bold;
+	bottom: 30px;
+	color: #008080;
+
+}
+
+.form__input:valid {
+	border-bottom: 2px solid  #008080;
 }
 
 /*Контейнер доставка*/
