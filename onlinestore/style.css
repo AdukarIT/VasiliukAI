@@ -93,6 +93,7 @@ nav {
 	margin: 0;
 	right: 40px;
 	bottom: 50%;
+	border-radius: 10px;
 	background-color: transparent;
 	outline: none;
 }
