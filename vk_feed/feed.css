@@ -11,8 +11,12 @@ header {
 	
 }
 
+a {
+	text-decoration: none;
+}
 
-.header-central__container {
+
+.header__central__container {
 	position: relative;
 	display: block;
 	box-sizing: border-box;
@@ -21,10 +25,10 @@ header {
 	margin: 0 auto;
 	padding: 0 15px;
 	font-size: 12.5px;
-	line-height: 1.154;
+	line-height: 42px;
 }
 
-.header__logo-block {
+.header__logo__block {
 	display: block;
 	width: 230px;
 	height: 42px;
@@ -36,7 +40,7 @@ header {
 	height: 38px;
 }*/
 
-.top__search-form {
+.top__search__form {
 	display: inline-block;
 	position: relative;
 	width: 230px;
@@ -52,7 +56,7 @@ header {
 	float: left;
 }
 
-.top__profile-block {
+.top__profile__block {
 	display: inline-block;
 	position: relative;
 	width: 94.234px;
@@ -60,4 +64,10 @@ header {
 	float: right;
 	padding-left: 10px;
 
+}
+
+.top__profile__name {
+	font-size: 12.5px;
+	font-weight: 700;
+	padding-right: 10px;
 }
