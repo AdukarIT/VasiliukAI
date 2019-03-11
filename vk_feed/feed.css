@@ -71,3 +71,8 @@ a {
 	font-weight: 700;
 	padding-right: 10px;
 }
+
+.main__wrap {
+	display: flex;
+	flex-direction: row;
+}
