@@ -29,3 +29,10 @@
 **Practice**
 
 10. Адаптивный сайт (медиа-запросы) <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/responsive_site> 
+
+
+**Homework "Animation"**
+
+- Ball <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/ball> 
+
+- Propeller <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/propeller> 
