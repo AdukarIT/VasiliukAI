@@ -36,3 +36,5 @@
 - Ball <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/ball> 
 
 - Propeller <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/propeller> 
+
+- SubZero <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/sub_zero> 
