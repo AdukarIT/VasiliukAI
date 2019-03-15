@@ -28,4 +28,4 @@
 
 **Practice**
 
-10. Адаптивный сайт <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/responsive_site>
+10. Адаптивный сайт (медиа-запросы) <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/responsive_site> 
