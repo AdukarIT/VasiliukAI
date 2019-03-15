@@ -26,4 +26,6 @@
 
 9. Форма обратной связи 2 <https://github.com/AdukarIT/VasiliukAI/tree/master/contact_form>
 
+**Practice**
 
+10. Адаптивный сайт <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/responsive_site>
