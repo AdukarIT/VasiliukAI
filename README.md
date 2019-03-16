@@ -38,3 +38,5 @@
 - Propeller <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/propeller> 
 
 - SubZero <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/sub_zero> 
+
+- SubZero2 <https://github.com/AdukarIT/VasiliukAI/tree/master/animation/sub_zero2> 
