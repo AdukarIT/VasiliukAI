@@ -244,6 +244,8 @@ address {
 		width: 100px;
 		height: auto;
 		float: left;
+		position: sticky;
+		top: 0;
 	}
 
 	ul.second-menu {
