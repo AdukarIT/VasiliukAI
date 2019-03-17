@@ -119,8 +119,8 @@ li.header-menu__item > a:active {
 	width: 100%;
 	height: auto;
 	border-bottom: 1px solid #4f4f4f;
-	margin-top: 20px;
-	text-align: left;
+	margin: 20px 0;
+	text-align: justify;
 }
 
 h1 {
@@ -136,14 +136,17 @@ h1 {
 ul.second-menu {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 
 }
 
 li.second-menu__item {
+	display: block;
 	list-style-type: none;
 	height: 40px;
 	line-height: 40px;
-	width: calc(100%/3);
+	width: calc(100%/4);
+	flex-grow: 1;
 	text-align: center;
 	background-color: #4f4f4f;
 	border-bottom: 1px solid #26a99d;
@@ -159,7 +162,7 @@ li.second-menu__item > a {
 	color: #26a99d;
 }
 
-li.second-menu__item:not(:last-of-type) {
+li.second-menu__item {
 	border-right: 1px solid #26a99d;
 }
 
@@ -230,24 +233,30 @@ address {
 		display: inline-block;
 	}
 
-	.content__wrap {
+	.content__block {
 		display: inline-block;
-		float: right;
 		width: calc(100% - 100px);
 
+	}
+
+	.second-menu__wrap {
+		display: block;
+		width: 100px;
+		height: auto;
+		float: left;
 	}
 
 	ul.second-menu {
 		display: block;
 		width: 100px;
-		height: calc(100%/3);
+		height: auto;
 
 	}
 
 	li.second-menu__item {
 		width: 100px;
-		height: 200px;
-		line-height: 200px;
+		height: 100px;
+		line-height: 100px;
 	}
 
 	li.second-menu__item > a {
@@ -273,6 +282,7 @@ address {
 @media (min-width: 1024px) {
 	main {
 		max-width: 1024px;
+		height: auto;
 		display: block;
   		border-right: 1px solid #4f4f4f;
   		border-left: 1px solid #4f4f4f;
