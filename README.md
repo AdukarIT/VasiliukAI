@@ -30,6 +30,11 @@
 
 10. Адаптивный сайт (медиа-запросы) <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/responsive_site> 
 
+11. Пляж <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/beach>
+
+12. Чекбокс <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/checkbox>
+
+13. Лайк <https://github.com/AdukarIT/VasiliukAI/tree/master/practice/likeit>
 
 **Homework "Animation"**
 
