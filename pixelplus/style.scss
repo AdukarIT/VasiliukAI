@@ -1,5 +1,3 @@
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -13,12 +11,12 @@ body {
 	font-family: Arial, serif;
 	font-size: 14px;
 	line-height: 22px;
-	header {
+	.head {
 		display: block;
 		position: relative;
 		width: 100%;
-		height: 154px;
-		.header__logo__wrap {
+		height: 131px;
+		.head__logo__wrap {
 			display: block;
 			position: absolute;
 			width: 72px;
@@ -29,7 +27,7 @@ body {
 			background-color:  #646464;
 		}
 
-		.header__central__block {
+		.head__central__block {
 			display: block;
 			position: absolute;
 			width: 229px;
@@ -41,7 +39,7 @@ body {
 
 		}
 
-		.header__right__block {
+		.head__right__block {
 			display: block;
 			position: absolute;
 			width: 463px;
@@ -55,16 +53,22 @@ body {
 	}
 }
 
+	hr {
+		display: block;
+		margin: 23px 0;
+	}
+
 .content {
+	display: flex;
 	width: 960px;
-	height: 773px;
+	height: auto;
 	.content__leftside {
 		display: block;
 		position: relative;
 		width: 184px;
-		height: 773px;
-		padding: 25px 0;
+		height: inherit;
 		.content__leftside-top {
+			display: block;
 			width: 134px;
 			height: auto;
 			padding: 25px;
@@ -82,7 +86,69 @@ body {
 	}
 
 	.content__central {
-		width: 757px;
+		display: block;
+		width: calc(100% - 207px);
 		height: auto;
+		margin-left: 23px;
+		float: right;
+		.content__central-top {
+			display: block;
+			width: 707px;
+			height: 160px;
+			padding: 25px;
+			background-color: #c6c6c6;
+			margin-bottom: 23px;
+		}
+
+		.photo__block {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			width: 757px;
+			.photo {
+			display: block;
+			width: 133px;
+			height: 151px;
+			margin: 23px 23px 0 0;
+			background-color: #c6c6c6;
+				&:nth-child(5n) {
+					margin-right: 0;
+				}
+				&:last-child {
+					margin-right: auto;
+				}
+			}
+			
+			
+		}
+		.content__central__bottom__wrap {
+			display: flex;
+			justify-content: space-between;
+			width: 757px;
+			height: auto;
+			margin-top: 23px;
+		}
+			.content__central__bottom {
+			display: block;
+			width: 317px;
+			height: 150px;
+			padding: 25px;
+			background-color: #c6c6c6;
+			
+		}
 	}
+}
+footer {
+	display: block;
+	width: 100%;
+	height: auto;
+	.footer__leftside {
+		display: block;
+		position: absolute;
+		width: 247px;
+		height: 180px;
+		padding: 25px;
+		background-color: #646464;
+		}
 }
