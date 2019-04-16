@@ -51,3 +51,5 @@
 **Final CSS**
 
 - Anderssonwise Architects <https://kennyfmx.github.io/Anderssonwise/public/home.html>
+                           <https://kennyfmx.github.io/Anderssonwise/public/news.html>
+                           <https://kennyfmx.github.io/Anderssonwise/public/projects.html>
