@@ -57,3 +57,9 @@
 <https://kennyfmx.github.io/anderssonwise/public/news.html>
 
 <https://kennyfmx.github.io/anderssonwise/public/projects.html>
+
+**JavaScript**
+
+**Practice**
+
+**Homework**
