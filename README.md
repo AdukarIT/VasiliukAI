@@ -58,8 +58,22 @@
 
 <https://kennyfmx.github.io/anderssonwise/public/projects.html>
 
-**JavaScript**
+**JavaScript:**
+The root folder:
+<https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/>
 
-**Practice**
+**-Practice:**
+The root folder: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice>
+Operators and Cycles: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/operators_cycles>
+Functions: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/functions>
+Debugging: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/debugging>
+Arrays: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/arrays>
+Events: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/events>
 
-**Homework**
+
+**-Homework:**
+The root folder: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework>
+Operators and Cycles: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/operators_cycles>
+Functions: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/functions>
+Arrays: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/arrays>
+Events: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/events>
