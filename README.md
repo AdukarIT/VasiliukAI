@@ -70,7 +70,7 @@ Operators and Cycles: <https://github.com/AdukarIT/VasiliukAI/tree/master/javasc
 
 Functions: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/functions>
 
-Debugging: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/debugging>
+Debugging: <https://github.com/AdukarIT/VasiliukAI/javascript/debugging>
 
 Arrays: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/arrays>
 
