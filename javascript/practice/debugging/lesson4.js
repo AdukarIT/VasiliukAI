@@ -12,7 +12,7 @@ console.log(pifagor(3, 4, 5));
 
 // Создайте функцию repeat(str, n), которая возвращает строку, состоящую из n повторений.
 
-function repeat(str = 'пиздюк', n = 2) {
+function repeat(str = 'слово', n = 2) {
 	let result = '';
 	for (let i = 1; i <= n; i++) {
 		result += str;
@@ -142,3 +142,118 @@ switch (monthNumber) {
 		alert('It is Autumn');
 		break;
 }
+
+//Создайте функцию, которая выводит в консоль числа от 10 до 99, 
+//заканчивающиеся на 7 или делящиеся на 7 (в убывающем порядке).
+
+function seven() {
+	for (let x = 99; x >= 10; x--) {
+		if (x % 7 == 0 || x % 10 == 7) {
+		console.log(x);
+		}
+	}
+}
+console.log(seven());
+
+//Создайте функцию, которая для чисел от 2 до 20 выводит в консоль все их делители.
+function del() {
+	for (var i = 2; i <= 20; i++) {
+		for (var j = 2; j <= 9; j++) {
+			if (i % j == 0) console.log(j + " делитель числа " + i);
+		}
+	}
+}
+console.log(del());
+//сделать задание 10 в общем виде.
+function noName(x, y) {
+	for (var i = x; i <= y; i++) {
+			for (var j = x; j <= i; j++) {
+				if (i % j == 0) {
+				console.log(j + " делитель числа " + i);
+				}
+			}  
+	}
+}
+noName(2, 21);
+
+//Создайте функцию с параметрами size (число) и unit (строка). 
+//В unit передаются единицы измерения информации («Кб», «Мб», «Гб»), 
+//в size – количество таких единиц. Функция возвращает количество байт в size.
+
+function howMuchIs(size, unit) {
+	switch (unit) {
+		case "Кб":
+		case "кб":
+		case "кБ":
+		case "КБ":
+			return "В " + size + " Кб" + " содержится " + size * 1024 + " байт";
+			break;
+		case "Мб":
+		case "мб":
+		case "мБ":
+		case "МБ":
+			return "В " + size + " Мб" + " содержится " + size * 2 ** 20 + " байт";
+			break;
+		case "Гб":
+		case "гб":
+		case "гБ":
+		case "ГБ":
+			return "В " + size + " Гб" + " содержится " + size * 2 ** 30 + " байт";
+			break;
+		default: 
+			alert ("Корявые данные");
+			break;
+	}
+}
+console.log(howMuchIs(500, "Гб"));
+
+//Создайте функцию, которая ищет наибольший общий делитель двух чисел.
+
+function biggestOne(a, b) {
+	let x = 1;
+	let y = 0;
+	while (x <= a) {
+		if(a % x == 0 && b % x == 0) {
+			y = x;
+		}
+		x++;
+	}
+	console.log(y);
+}
+biggestOne(30, 65);
+
+// Решите предыдущую задачу через рекурсию.
+function biggestOneAgain(a, b) {
+if (a == 0) {
+	return b;
+} else {
+	return biggestOneAgain(b % a, a);
+}
+}
+console.log(biggestOneAgain(30, 65));
+
+//Создайте функцию words(),  которая в зависимости от переданного в нее целого числа n, 
+//будет выводить слово «карандаш» в правильной форме («12 карандашей», но «22 карандаша»).
+function words(n) {
+	if (n >= 5 && n <= 20 || n % 10 == 0 || n == 0 || n % 10 > 4 && n % 10 <= 9) {
+	return n + ' карандашей';
+} else if (n > 1 && n < 5 || n % 10 < 5 && n % 10 > 1) {
+	return n + ' карандаша';
+} else if (n == 1 || n % 10 == 1) {
+	return n + ' карандаш';
+}
+}
+console.log(words(100000));
+
+//Создайте функцию, которая проверяет, можно ли представить число в виде суммы квадратов двух целых однозначных чисел.
+function getSquare(z) {
+    for(let x = 1; x < z; x++ ){
+        for(let y = z; y >= x; y--){
+            if(x * x + y * y == z){
+                return true;
+            }
+        }
+    }
+    return false;
+}
+console.log(getSquare(8));
