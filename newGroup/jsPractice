@@ -1,0 +1,95 @@
+//1
+
+function pifagor (a, b, c) {
+	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c))) {
+		return false;
+	} else if  ((a <= 0) || (b <= 0) || (c <= 0)) {
+		return false;
+	} else if  ((a*a) + (b*b) == (c*c)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+console.log(pifagor('avb', 4, 5));
+
+//2
+
+// function wordRepeat (str, n) { 
+// 	let result = '';
+// 	for (let i = 1; i <= n; i++) {
+// 		result += str;
+// 	}
+// 	return result;
+// }
+// console.log(wordRepeat('word', 5));
+
+function wordRepeat (str = '', n = 2) { 
+	let result = '';
+	for (let i = 1; i <= n; i++) {
+		result += str;
+	}
+	return result;
+}
+console.log(wordRepeat());
+
+//3
+
+function howMuch(pupils, desk) {
+	let n = pupils - (desk * 2);
+	if (n % 2 != 0) {
+		n += 1;
+	}
+	if (n / 2 > 0) {
+		return (n / 2) + ' desks are missing';
+	} else if (n / 2 < 0) {
+		return ((n / 2) * -1) + ' extra desks';
+	} else {
+		return ('enough desks');
+	}
+}
+console.log(howMuch(2, 4));
+
+//4
+
+function rating(mark) {
+	switch(mark) {
+		case 0: 
+			return 'Error';
+		case 1:
+			return 'Unsatisfactory';
+		case 2:
+			return 'Unsatisfactory';
+		case 3:
+			return 'Satisfactory';
+		case 4:
+			return 'Satisfactory';
+		case 5:
+			return 'Almost good';
+		case 6:
+			return 'Good';
+		case 7:
+			return 'Very good';
+		case 8:
+			return 'Almost excellent';
+		case 9:
+			return 'Excellent';
+		case 10:
+			return 'Brilliant';
+		default:
+			return 'Its not a mark';
+	}
+}
+
+let mark = +prompt('Enter your mark');
+console.log(rating(mark));
+
+//5
+
+function untilZero() {
+	let n;
+	do {
+		n = +prompt('Enter random number');
+	} while (n != 0);
+}
+untilZero();
