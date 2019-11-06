@@ -1,5 +1,9 @@
 # VasilyukAI
 
+**New Group (temporary)**
+
+practice: <https://github.com/AdukarIT/VasiliukAI/blob/master/newGroup/jsPractice>
+
 **Homework 2**
 
 1. Phone service: <https://github.com/AdukarIT/VasiliukAI/tree/master/mobile%20phone%20service> (updated)
