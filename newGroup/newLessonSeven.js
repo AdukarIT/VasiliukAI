@@ -53,7 +53,7 @@ console.log(howMuch("Напишите функцию, которая счита�
 function howMuchNew(string, symbol) {
 	let sum = 0;
 	for (let i = 0; i <= string.length; i++) {
-		if (string.charAt(i).toLowerCase() == symbol) {
+		if (string.charAt(i).toLowerCase() == symbol.toLowerCase()) {
 			sum++
 		}
 	}
