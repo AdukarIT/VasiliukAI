@@ -41,10 +41,10 @@ let georgianCuisine = {
  //Создайте объект "Цилиндр" (свойства – радиус и высота). Добавьте в него метод, который считает объём цилиндра (используя this).
 
 let cylinder = {
-	r: 12,
-	h: 20,
-	getVolume = function() {
-	return this.r*this.r*Math.PI*this.h;
-	};
+	radius: 12,
+	height: 20,
+	getVolume() {
+		return this.radius*this.radius*Math.PI*this.height
+	}
 }
-console.log(cylinder.getVolume);
+console.log(cylinder.getVolume());
