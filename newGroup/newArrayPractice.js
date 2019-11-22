@@ -36,3 +36,19 @@ function onlyBoolean() {
 		}
 	}
 console.log(onlyBoolean());
+
+let customArray = ['', 'bbb', false, '333', 0, NaN];
+
+function removeFalse(arr) {
+	let copy = [];
+	for ( let i = 0; i <= arr.length; i++) {
+		copy[i] = arr[i];
+	}
+	for (let i = arr.length - 1; i >= 0; i--) {
+		if (!Boolean(copy[i])) { // Boolean(copy[i]) == false
+			copy.splice(i, 1)
+		}
+		return copy;
+	}
+}
+console.log(removeFalse(customArray));
