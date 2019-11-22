@@ -48,3 +48,28 @@ let cylinder = {
 	}
 }
 console.log(cylinder.getVolume());
+
+//Выберите пингвина из списка вымышленных пингвинов на Википедии и опишите его в виде объекта (не менее трёх полей; например, имя, создатель и источник).
+//Добавьте этому объекту свойство canFly. Добавьте два метода: sayHello, который выводит в консоль приветствие и представление вашего пингвина, и fly,
+// который в зависимости от значения свойства canFly (true или false) определяет, может ли пингвин летать, и сообщает об этом в консоль.
+
+let wanted = {
+	family: "Penguins",
+	name: "Kowalski",
+	rank: "First Lieutenant",
+	origin: "Madagascar",
+	info: "A crafty group of penguins who try to escape the zoo to go back to Antarctica",
+	comment: 'Armed and Dangerous',
+	canFly: false,
+	sayHello() {
+		return "Hello, this is " + this.name
+	},
+	fly() {
+		if (this.canFly == true) {
+			return "And i'm can fly"
+		} else {
+			return "And i'm can't fly, but i wish to learn how..."
+		}
+	}
+}
+console.log(wanted.sayHello(), wanted.fly());
