@@ -66,29 +66,3 @@ practice: <https://github.com/AdukarIT/VasiliukAI/blob/master/newGroup/jsPractic
 The root folder:
 <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/>
 
-**-Practice:**
-
-The root folder: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice>
-
-Operators and Cycles: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice/operators_cycles>
-
-Functions: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice/functions>
-
-Debugging: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice/debugging>
-
-Arrays: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice/arrays>
-
-Events: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/practice/events>
-
-
-**-Homework:**
-
-The root folder: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework>
-
-Operators and Cycles: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/operators_cycles>
-
-Functions: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/functions>
-
-Arrays: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/arrays>
-
-Events: <https://github.com/AdukarIT/VasiliukAI/tree/master/javascript/homework/events>
