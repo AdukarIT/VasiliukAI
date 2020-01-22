@@ -17,6 +17,6 @@
 	</form>
 
 
-	<script src="javascript_p10.js"></script>
+	<script src="events_pr.js"></script>
 </body>
 </html>
