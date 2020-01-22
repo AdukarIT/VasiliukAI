@@ -60,57 +60,57 @@ console.log(brokenCar);
 
 //
 
-// let birds = {
-// 	hasWings: true
-// }
-// function Penguin(name) {
-// 	this.name = name;
-// }
-// Penguin.prototype = birds;
-// let gunter = new Penguin('Gunter');
-// console.log(gunter, hasWings);
-// console.log(gunter.name);
-
-//
-
-// function Person(firstName, lastName) {
-// 	this.firstName = firstName;
-// 	this.lastName = lastName;
-// }
-
-// Person.prototype.getFullName = function() {
-// 	return this.firstName + ' ' + this.lastName;
-// }
-
-// let man = new Person('Vasia', 'Petrov');
-// console.dir(man);
+let birds = {
+	hasWings: true
+}
+function Penguin(name) {
+	this.name = name;
+}
+Penguin.prototype = birds;
+let gunter = new Penguin('Gunter');
+console.log(gunter.hasWings);
+console.log(gunter.name);
 
 
-// function User(firstName, lastName, email, pwd) {
-// 	Person.call(this, firstName, lastName);
-// 	this.email = email;
-// 	this.password = pwd;
-// }
-// User.prototype = Object.create(Person.prototype);
 
-// User.prototype.login = function(email, pwd) {
-// 	return email == this.email && pwd == this.password;
-// }
+function Person(firstName, lastName) {
+	this.firstName = firstName;
+	this.lastName = lastName;
+}
 
-// let petr = new User('Petr', 'Ivanov', 'email@gmail.com', 'pass');
-// console.log(petr);
+Person.prototype.getFullName = function() {
+	return this.firstName + ' ' + this.lastName;
+}
 
-// function Admin(firstName, lastName, email, pwd) {
-// 	User.apply(this, arguments);
-// }
+let man = new Person('Vasia', 'Petrov');
+console.dir(man);
 
-// Admin.prototype = Object.create(User.prototype);
-// Admin.banHammer = function(email) {
-// 	console.log('User with this ' + email + ' was banned');
-// }
 
-// let adminVasia = new Admin('Petr', 'Ivanov', 'email@gmail.com', 'password');
-// console.log(adminVasia);
+function User(firstName, lastName, email, pwd) {
+	Person.call(this, firstName, lastName);
+	this.email = email;
+	this.password = pwd;
+}
+User.prototype = Object.create(Person.prototype);
+
+User.prototype.login = function(email, pwd) {
+	return email == this.email && pwd == this.password;
+}
+
+let petr = new User('Petr', 'Ivanov', 'email@gmail.com', 'pass');
+console.log(petr);
+
+function Admin(firstName, lastName, email, pwd) {
+	User.apply(this, arguments);
+}
+
+Admin.prototype = Object.create(User.prototype);
+Admin.banHammer = function(email) {
+	console.log('User with this ' + email + ' was banned');
+}
+
+let adminVasia = new Admin('Petr', 'Ivanov', 'email@gmail.com', 'password');
+console.log(adminVasia);
 
 //practice
 
@@ -147,6 +147,7 @@ function Fridge(deltaT, minT) {
 			_temp -= this.deltaT;
 		else
 			_temp = this.minT
+		return _temp;
 	}
 }
 
