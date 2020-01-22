@@ -1,24 +1,54 @@
-//создайте массив и в цикле заполните его чётными числами от 2 до 20
-let arrayP1 = new Array(10);
-	for (let i = 0; i < arrayP1.length; i++) {
-		arrayP1[i] = (i + 1) * 2;
-	}
-console.log(arrayP1);
-//преобразуйте цикл, чтобы его элементы стали равны своему индексу умноженному на 5
-for (let i = 0; i < arrayP1.length; i++) {
-	arrayP1[i] = i * 5;
-}
-console.log(arrayP1);
-// получите от пользователя 3 числа, создайте из них массив. используя циклы, найдите наибольшее из них
-// и разделите на него каждый из чисел массива.
-let num1 = +prompt ("введите число 1");
-let num2 = +prompt ("введите число 2");
-let num3 = +prompt ("введите число 3");
+//Напишите функцию, которая удаляет из массива повторяющиеся элементы и возвращает обновлённый массив.
 
-let arrayP2 = [num1, num2, num3];
-	if (num1 > num2 || num2 > num3) {
-		let num4 = num2 / num1;
-		let num5 = num3 / num1;
-		let num6 = num1 / num1;
+function createRandomArray(len, min, max) {
+	let someArray = [];
+	for (let i = 0, i < len; i++) {
+		someArray.push(Math.floor(Math.random() * (max - min + 1)) + min);
+	} return someArray;
+}
+
+function removeDoubles(arr) {
+	for (let i = 0; i <= arr.length; i++) {
+		for (let j = i+1; j <= arr.length; j > i; j--) {
+			if(arr[i] == arr[j]) {
+				arr.splice(j, 1);
+			}
+		}
 	}
-console.log(arrayP2[2]);
+	return arr
+}
+
+let randomArr = createRandomArray(20, 11, 20);
+console.log(randomArr);
+removeDoubles(randomArr);
+
+//Напишите функцию, удаляющую из массива все элементы, которые при приведении к типу Boolean дают false.
+
+function onlyBoolean() {
+	let array = [];
+	for (let i = 0; i <= array.length; i++) {
+		for (let j = i+1; j <= arr.length; j > i; j--) {
+			if(arr[i] == Boolean('') || 
+				arr[i] == Boolean(null) || arr[i] == Boolean(NaN) || arr[i] == Boolean(0)
+				 || arr[i] == Boolean(undefined) || arr[i] == Boolean(false)) {
+				arr.splice(j, 1);
+			}
+		}
+	}
+console.log(onlyBoolean());
+
+let customArray = ['', 'bbb', false, '333', 0, NaN];
+
+function removeFalse(arr) {
+	let copy = [];
+	for ( let i = 0; i <= arr.length; i++) {
+		copy[i] = arr[i];
+	}
+	for (let i = arr.length - 1; i >= 0; i--) {
+		if (!Boolean(copy[i])) { // Boolean(copy[i]) == false
+			copy.splice(i, 1)
+		}
+		return copy;
+	}
+}
+console.log(removeFalse(customArray));
