@@ -33,7 +33,7 @@ let cardTheme = [
 			{
 				Card name: "Шестой элемент Рэнди",
 				Character: "Рэнди Марш",
-				Card image: ,
+				Card image: "images/cards/Adventure/Randy_scifi_card.png",
 				Class: "Fighter",
 				Rarities: 'Legendary',
 				Card description: "Класс бойца с достточно сильным уроном , но не быстрой атакой. Имеет преимущество над убийцами в стычке один на один. Юниты не настолько сильны, как у Покахонтас или Монашки",
